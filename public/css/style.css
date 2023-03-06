@@ -1,0 +1,40 @@
+th.no-sort.sorting_asc::before,
+th.no-sort.sorting_asc::after {
+    display:none !important;
+}
+table.dataTable thead>tr>th.sorting_asc {
+    padding-right: .75rem;
+}
+
+th.no-sort.sorting_asc {
+    cursor: default !important;
+    width:10px !important;
+}
+
+div.dropdown > button.btn.btn-primary.btn-sm.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-search-block {
+    display: flex!important;
+    max-width: 600px;
+    margin: auto;
+    width:100%;
+}
+
+.nav-link[data-widget="navbar-search"] {
+    display: none;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+table.dataTable thead>tr>th, 
+table.dataTable tbody>tr>td,
+table.dataTable tbody>tr>td>span,
+table thead>tr>th, 
+table tbody>tr>td,
+table tbody>tr>td>span {
+    font-size: 14px;
+}
